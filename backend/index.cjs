@@ -37,6 +37,11 @@ app.get('/users', function(req,res){
     });
 });
 
+app.get('/signup',function(req,res){
+    res.send("Test");
+});
+
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
